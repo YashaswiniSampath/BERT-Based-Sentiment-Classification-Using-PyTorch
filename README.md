@@ -1,2 +1,2 @@
-# Pre-trained-Language-Model
-Fine tuning a pre-trained language model
+# BERT-Based Sentiment Classification Using PyTorch
+This project utilizes PyTorch and BERT, a transformer-based model, for the binary classification of sentences as truthful or deceptive using a small dataset of 320 examples. It involves preprocessing with a LabelEncoder for labels, tokenization with PyTorch's BERT tokenizer, and model training with BERTForSequenceClassification from PyTorch's Transformers library. The project includes setting up DataLoader for efficient batch processing, optimizing with PyTorch's AdamW optimizer, and training on GPU if available. Leveraging BERT's self-attention mechanisms across 12 transformer layers and 12 attention heads, the goal is to achieve accurate classification in natural language processing tasks.
